@@ -1,0 +1,4 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.xpsc.jpamapper.boot.autoconfigure.JpamapperAutoConfiguration,\
+cn.xpsc.jpamapper.boot.autoconfigure.JpamapperAuditingAutoConfiguration

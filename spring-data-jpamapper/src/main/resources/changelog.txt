@@ -1,0 +1,86 @@
+spring-data-jpamapper 2.x Changelog
+===================================
+Changes in version 2.0.4
+---------------------------------------------
+* Upgrade spring-data-jpa to 2.2.13.RELEASE
+* Upgrade hibernate version to 5.5.9.Final
+---------------------------------------------
+Changes in version 2.0.3
+---------------------------------------------
+* Writing SQL Insert  by adding SQL @NativeInsert  and @NativeInsertProvider annotations
+* Writing SQL Update  by adding SQL @NativeUpdate  and @NativeUpdateProvider annotations
+* Writing SQL DELETE  by adding SQL @NativeDelete  and @NativeDeleteProvider annotations
+* Optimize the code of the NativeSQL RepositoryQuery class
+---------------------------------------------
+Changes in version 2.0.2
+---------------------------------------------
+* Writing SQL queries by adding SQL annotations
+* Fix the bug Invalid annotation for data jpa @Param
+---------------------------------------------
+Changes in version 2.0.1
+---------------------------------------------
+* Writing SQL queries by adding SQL annotations
+* Fix the bug Error in passing paging parameters through SQL annotation
+---------------------------------------------
+Changes in version 2.0.0
+---------------------------------------------
+* Writing SQL queries by adding SQL annotations
+* Upgrade spring-data-jpa to 2.2.0.RELEASE
+* Replace persistence-api with jakarta.persistence-api
+---------------------------------------------
+Changes in version 1.2.5
+---------------------------------------------
+* Fix the bug The SQL criteria query constructed by sqlcriteria is not transferred to criteria. By default LIKEMode.Default null pointer
+---------------------------------------------
+Changes in version 1.2.4
+---------------------------------------------
+* Fix the bug Criteriawrapper order by sort invalid
+* Fix the bug Criteriawrapper SQL query print display duplicate
+* Add method for Criteriawrapper findOne query
+---------------------------------------------
+Changes in version 1.2.3
+---------------------------------------------
+* Fix the bug SQL Query count sorting error
+* Fix the bug An error occurs when the SQL query parameter is empty
+* Add a SqlQuery objectr method for SQL paging query
+* Add a SqlQuery object method for SQL findAll query
+---------------------------------------------
+Changes in version 1.2.2
+---------------------------------------------
+* Fix the bug that the criteriawrapper builds the object page pageinfo, passes the parameter pagenum, and the PageSize has a zero error
+---------------------------------------------
+Changes in version 1.2.1
+---------------------------------------------
+* Fix Criteria or CriteriaWrapper object sqlcriteria class construction query condition is null bug
+*  CriteriaWrapper object mapping field mapping list duplicate data bug
+---------------------------------------------
+Changes in version 1.2.0
+---------------------------------------------
+* Upgrade spring data JPA version 2.0.0.release
+* Fix compatibility with spring data JPA 2.0.0 and above paging types and paging parameters
+* Add baseRepository.count method parameters CriteriaWrapper
+* Add lambda expressions to facilitate the preparation of various query conditions
+---------------------------------------------
+
+Changes in version 1.1.0
+---------------------------------------------
+* Upgrade spring data JPA version 1.11.0.release
+* Fix compatibility with spring data JPA 2.0.0 and above paging types and paging parameters
+* Add baseRepository.findOne method
+---------------------------------------------
+Changes in version 1.0.0
+---------------------------------------------
+* Initializes the creation of the baserepository interface class
+* Support object query
+* Support SQL query
+* Support dynamic mapping
+
+
+
+
+
+
+
+
+
+
