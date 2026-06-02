@@ -55,7 +55,7 @@ spring
  <dependency>
        <groupId>cn.xphsc</groupId>
        <artifactId>spring-data-jpamapper</artifactId>
-      <version>2.0.5</version>
+      <version>2.0.6</version>
 </dependency>
 ~~~
 spring boot版本
@@ -63,7 +63,7 @@ spring boot版本
 <dependency>
    <groupId>cn.xphsc.boot</groupId>
     <artifactId>jpamapper-spring-boot-starter</artifactId>
-    <version>2.0.5</version>
+    <version>2.0.6</version>
 </dependency>
 ~~~
 spring boot 3版本
@@ -71,7 +71,7 @@ spring boot 3版本
 <dependency>
    <groupId>cn.xphsc.boot</groupId>
     <artifactId>jpamapper-spring-boot-starter</artifactId>
-    <version>3.0.2</version>
+    <version>3.0.3</version>
 </dependency>
 ~~~
 #### 使用说明
